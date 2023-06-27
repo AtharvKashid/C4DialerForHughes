@@ -1,0 +1,712 @@
+body {
+	margin: 0;
+}
+
+
+
+
+
+iframe {
+         width: 100%;
+    height: 300px;
+    transition: 500ms 0s;
+    border: none;
+   flex-grow: 1;
+}
+ul {
+list-style: none;
+padding: 5px 0;
+margin: 0;
+border-bottom: 1px solid #b9b9b9;
+}
+
+ul li {
+border-bottom: 1px solid #e6e6e6;
+    padding: 5px 0;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    padding-right: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts li span:first-child {
+
+ background: none;
+    box-shadow: none;
+    flex-grow: 100;
+   
+}
+
+.contacts li span{
+width: auto;
+    display: inline-block;
+    padding: 15px 10px;
+    vertical-align: middle;
+    background: #ffffff;
+    box-shadow: 5px 2px 12px 0px #00000021;
+    margin: 0px 2px;
+    border-radius: 5px;
+    flex-shrink: 1;
+   
+}
+
+
+
+.contacts ul:nth-child(odd) {
+/*background: #efefef*/
+}
+
+
+.contacts ul:nth-child(even) {
+background: #ffffff
+}
+
+a {
+color: black;
+text-decoration: none;
+-webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a:focus-visible {
+    outline: none;
+}
+
+.update-app {
+    background: #fffbea;
+    margin: 0;
+    padding: 10px 10px;
+}
+.update-app a{
+    background: #0072ff;
+    border-radius: 6px;
+    padding: 16px 31px;
+    font-weight: 700;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0% 25%;
+    margin-bottom: 10px;
+}
+
+
+.update-app p {
+    text-align: center;
+}
+
+.maindiv {
+background: #0072ff;
+color:white;
+padding: 2% 3% 5% 3%;
+}
+
+.maindiv h1 {
+	margin: 0 0 13px 0;
+    text-align: center;
+}
+.maindiv a {
+	color: white;
+    margin: 3px 0px 25px 0px;
+    position: fixed;
+    bottom: 20px;
+    background: #0072ff;
+    box-shadow: 1px 5px 12px 4px #0000006b;
+    padding: 17px;
+    right: 10px;
+    line-height: 23px;
+    font-weight: 700;
+    border-radius: 12px;
+    TEXT-ALIGN: CENTER;
+}
+input {
+    width: 95%;
+    padding: 16px 0px 16px 17px;
+    font-size: 20px;
+    border: none;border-radius: 6px;
+}
+
+
+input#myInput:focus-visible {
+    outline: none;
+}
+
+
+
+
+
+
+#main span:active {
+    background: #e8f3ff!important;
+    transition: 0.3s;
+}
+#main span:first-child:active {
+ background: none;
+}
+
+
+
+
+
+/*
+
+#precontainer {
+	    background: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#preloader{
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	background:  black;
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+  transform-origin: center center;
+	animation: pulse 500ms 100ms infinite both;
+}
+
+@keyframes pulse {
+  0%   { opacity: 1; transform: translate(-50%, -50%) scale(1);}
+	50%  { opacity: 0.7; transform: translate(-50%, -50%) scale(0.6);}
+  100% { opacity: 1; transform: translate(-50%, -50%) scale(1);}
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+border: 1px solid #ccc;
+border-collapse: collapse;
+margin: 0;
+padding: 0;
+width: 100%;
+table-layout: fixed;
+}
+
+table caption {
+font-size: 1.5em;
+margin: .5em 0 .75em;
+}
+
+table tr {
+background-color: #f8f8f8;
+border: 1px solid #ddd;
+padding: .35em;
+}
+
+table th
+{
+padding: .625em;
+text-align: center;
+}
+
+table th {
+font-size: .85em;
+letter-spacing: .1em;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* general styling */
+body {
+font-family: "Open Sans", sans-serif;
+line-height: 1.25;
+}
